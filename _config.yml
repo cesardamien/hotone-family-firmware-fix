@@ -1,9 +1,9 @@
 # GitHub Pages / Jekyll configuration — generates <title>, meta description,
 # Open Graph, Twitter cards and JSON-LD via jekyll-seo-tag so search engines
 # and link previews get proper metadata.
-title: "Firmware update stuck at 0% on Windows 11 — Valeton / Hotone / Sonicake fix"
+title: "Valeton / Hotone / Sonicake not connecting or firmware update stuck at 0% on Windows 11 — one-click fix"
 tagline: "One-click fix for Valeton, Hotone and Sonicake pedals whose firmware update freezes at 0% on Windows 11"
-description: "Your Valeton GP, Hotone Ampero or Sonicake pedal is stuck on 'Firmware Update / Restore' and the PC sits at 0%? It is a Windows 11 MIDI driver problem, not the pedal. Download one file, double-click, click Yes, run the update again. Free, open source, tested on GP-180."
+description: "Valeton Suite does not see your pedal, cannot load NAM/IR, or the firmware update sits at 0% with the pedal stuck on 'Firmware Update / Restore'? It is a Windows 11 MIDI driver problem, not the pedal. Download one file, double-click, click Yes, run the update again. Free, open source, tested on GP-180."
 url: "https://cesardamien.github.io"
 baseurl: "/hotone-family-firmware-fix"
 lang: en

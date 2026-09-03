@@ -144,9 +144,9 @@ if (-not (Test-Path $Inf)) {
 }
 
 if ($before.Count -eq 0) {
-    Log "Nothing to fix. Put the pedal into firmware-update mode (start the update in the"
-    Log "Valeton Suite / Hotone updater until the pedal shows 'Firmware Update / Restore'),"
-    Log "keep it connected, then run this script again."
+    Log "Nothing to fix: no Valeton / Hotone / Sonicake device is connected."
+    Log "Connect the pedal by USB (normal mode if the Suite does not see it; on the"
+    Log "'Firmware Update / Restore' screen if the update stops at 0%), then run again."
     Start-Process notepad.exe $LogPath
     return
 }
@@ -196,7 +196,10 @@ $fixed = @($after | Where-Object { (Get-DeviceProp $_ "DEVPKEY_Device_DriverInfP
 Log "---- Result ----"
 if ($fixed.Count -gt 0) {
     Log ("SUCCESS: {0} device(s) now use the USB Audio class driver." -f $fixed.Count)
-    Log "Open the Valeton Suite / Hotone updater and run the firmware update now."
+    Log "Now open the Valeton Suite / Hotone app: it should see the pedal, or run the firmware update."
+    Log "REMINDER: normal mode and update mode are different devices. If you fixed the"
+    Log "connection now and the update later stops at 0%, run this again with the pedal"
+    Log "on its 'Firmware Update / Restore' screen."
     if ($needReboot) { Log "Windows asked for a reboot. Try the update first; reboot only if it still fails." }
 } elseif ($anyOk) {
     Log "The driver was applied but the device did not report wdma_usb.inf yet."
