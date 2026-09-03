@@ -12,7 +12,7 @@ Isso vale para **todas** as pedaleiras da Valeton (GP-5, GP-50, GP-100, GP-150, 
 
 ## Resolva agora
 
-**1.** Baixe o arquivo **[`FIX-FIRMWARE-DRIVER.bat`](../../raw/main/FIX-FIRMWARE-DRIVER.bat)** (botão direito → *Salvar link como…* se o navegador abrir o texto em vez de baixar). Coloque em qualquer pasta — Downloads serve.
+**1.** Baixe o arquivo **[`FIX-FIRMWARE-DRIVER.bat`](https://github.com/cesardamien/hotone-family-firmware-fix/releases/latest/download/FIX-FIRMWARE-DRIVER.bat)**. Coloque em qualquer pasta — Downloads serve.
 
 **2.** Deixe a pedaleira **ligada, conectada pelo USB e na tela "Firmware Update / Restore"**. Se ela já está nessa tela, perfeito, não mexa nela. Se não está, abra o Valeton Suite (ou o atualizador da Hotone), clique em *Firmware Update* e deixe falhar — a pedaleira vai ficar na tela certa.
 

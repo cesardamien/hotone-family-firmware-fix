@@ -12,7 +12,7 @@ This applies to **every** pedal from Valeton (GP-5, GP-50, GP-100, GP-150, GP-18
 
 ## Fix it now
 
-**1.** Download **[`FIX-FIRMWARE-DRIVER.bat`](../../raw/main/FIX-FIRMWARE-DRIVER.bat)** (right-click → *Save link as…* if your browser shows the text instead of downloading). Put it in any folder — Downloads is fine.
+**1.** Download **[`FIX-FIRMWARE-DRIVER.bat`](https://github.com/cesardamien/hotone-family-firmware-fix/releases/latest/download/FIX-FIRMWARE-DRIVER.bat)**. Put it in any folder — Downloads is fine.
 
 **2.** Keep the pedal **powered on, connected by USB and on the "Firmware Update / Restore" screen**. If it is already there, leave it alone. If it is not, open Valeton Suite (or the Hotone updater), click *Firmware Update* and let it fail — the pedal will land on the right screen.
 
