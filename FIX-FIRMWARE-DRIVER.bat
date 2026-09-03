@@ -1,11 +1,16 @@
 @echo off
 :: =====================================================================
-::  FIX-FIRMWARE-DRIVER.bat  -  all-in-one fix for firmware updates that
-::  freeze at 0% on Windows 11 (Valeton / Hotone / Sonicake pedals).
+::  FIX-FIRMWARE-DRIVER.bat  -  all-in-one Windows 11 fix for Valeton /
+::  Hotone / Sonicake pedals: pedal not detected by the Suite (no NAM/IR
+::  transfer) and firmware update stuck at 0% on the update screen.
 ::
-::  HOW TO USE: put the pedal on its "Firmware Update / Restore" screen,
-::  double-click this file, click "Yes" on the Windows permission prompt.
-::  A log opens when it finishes. Then run the update in Valeton Suite.
+::  HOW TO USE: connect the pedal in whatever state it is in (normal mode
+::  if the Suite does not see it; on its "Firmware Update / Restore" screen
+::  if the update stops at 0%), double-click this file, click "Yes" on the
+::  Windows permission prompt. A log opens when it finishes. Then try again.
+::  Normal mode and update mode are DIFFERENT devices for Windows: if you
+::  fixed the connection and the update later stops at 0%, run this again
+::  with the pedal on the update screen.
 ::
 ::  Everything this file does is written below in plain PowerShell.
 ::  Open it in Notepad to read it. Source + docs:
