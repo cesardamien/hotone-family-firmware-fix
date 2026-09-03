@@ -4,6 +4,8 @@
 
 <p align="center"><b>Download one file. Double-click it. Click "Yes". Run the update again.</b></p>
 
+![Firmware update stuck at 0% on Windows 11 — one-click fix for Valeton, Hotone and Sonicake pedals](social-preview.png)
+
 If your pedal's screen says **"Firmware Update / Restore — Please don't shut down"** while the updater on your computer sits at **0 %** and then closes, you have hit a **Windows 11** problem, not a pedal problem. The pedal is not broken. Nothing is lost. It takes two minutes to fix, with no driver downloads, no Windows update rollback and no second computer.
 
 This applies to **every** pedal from Valeton (GP-5, GP-50, GP-100, GP-150, GP-180, GP-200, GP-200JR, GP-200LT, GP-300), Hotone (Ampero, Ampero One, Ampero Mini, Ampero II, II Stomp, II Stage, II XL, Pulze, Pulze Mini, Jogg, UA-12) and Sonicake (Matribox, Matribox II and II Pro, Pocket Master, Smart Box, Sonic Cube, AMPCUBE). Three brands, one factory, the same USB electronics — and they all break the same way.
@@ -72,6 +74,16 @@ Then this is not your problem. The new MIDI driver exists only on Windows 11 upd
 This project was born from a **Valeton GP-180** (V1.0.0 → V1.1.1) on a fully updated Windows 11 25H2, after several days stuck. On that pedal it is confirmed and documented, log included ([docs/EXAMPLE-LOG.md](docs/EXAMPLE-LOG.md)).
 
 On the other models the fix is the same by construction: same USB vendor code, same MIDI-based update mode, same official notice from both brands. But I do **not yet have a log from each one**. If it worked on yours — or did not — open an issue with the model and the log; it takes a minute and it is what turns "expected" into "confirmed" in the [device table](docs/SUPPORTED-DEVICES.md) for the next person.
+
+---
+
+## Symptoms people search for
+
+If any of these describe you, you are in the right place: *Valeton firmware update stuck at 0%* · *Valeton Suite firmware update not working Windows 11* · *GP-200 / GP-180 / GP-100 stuck on Firmware Update Restore screen* · *Valeton pedal "please don't shut down" frozen* · *Hotone Ampero firmware update fails Windows 11* · *Ampero II Stomp / Stage update stuck* · *Sonicake Matribox firmware update 0%* · *USB Audio Device not in driver list* · *Valeton driver MIDI instead of USB audio* · *Windows 11 usbmidi2 firmware update bootloader* · *Valeton GP-180 bricked after update* (it is not bricked — run the fix and update again).
+
+Português: *atualização de firmware Valeton travada em 0%* · *pedaleira Valeton presa na tela Firmware Update Restore* · *Valeton Suite não atualiza firmware Windows 11* · *Dispositivo de Áudio USB não aparece na lista* · *Hotone Ampero atualização de firmware não funciona*.
+
+Español: *Valeton actualización de firmware se queda en 0%* · *Hotone Ampero actualización firmware Windows 11 no funciona* · *pedalera bloqueada en Firmware Update Restore*.
 
 ---
 

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cesardamien.github.io/hotone-family-firmware-fix/sitemap.xml
